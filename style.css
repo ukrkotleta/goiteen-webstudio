@@ -2,19 +2,76 @@ body{
     font-family:"Roboto", sans-serif;
     color: #212121;
 }
-a{
-    text-decoration: none;
-}
 ul {
     list-style: none;
 }
 a {
     color: #212121;
+    text-decoration: none;
+}
+.container {
+    width: 1078px;
+    margin: 0 auto;
 }
 nav ul li.active a {
     color: #2196F3;
 }
 .logo {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 26px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    width: 238px;
+} 
+.logo span {
+    color: #2196F3;
 }
+header nav a {
+    color:#212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+header .contacts a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+header nav a:hover,
+.contacts a:hover {
+    color:#2196F3;
+}
+header  {
+    display: flex;
+    align-items: center;
+}
+header ul {
+    padding: 0;
+    
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin-right: 54px;
+}
+header .contacts {
+    display: flex;
+    margin-left: auto ;
+}
+header .contacts li {
+    margin-right: 50px;
+}
+header .contacts li:last-child,
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
