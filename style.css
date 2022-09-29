@@ -9,6 +9,17 @@ a {
     color: #212121;
     text-decoration: none;
 }
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin:0 0 50px 0;
+}
+img {
+    max-width: 100%;
+}
 .container {
     width: 1078px;
     margin: 0 auto;
@@ -52,6 +63,7 @@ header nav a:hover,
 header  {
     display: flex;
     align-items: center;
+    height: 80px;
 }
 header ul {
     padding: 0;
@@ -74,4 +86,123 @@ header .contacts li:last-child,
 header nav ul li:last-child {
     margin-right: 0;
 }
+.hero {
+    height: 600px;
+    background-color: #2F303A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h1 {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.hero button {
+    padding: 10px 24px 10px 24px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.advantages,
+.work,
+.team {
+    padding: 94px 0;
+}
+.advantages {
+    padding-bottom: 0;
+}
+.advantages ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px -15px;
+}
+.advantages ul li {
+    margin: 0px 15px;
+}
+.advantages h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.advantages p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.work ul {
+    display: flex;
+    margin: 0px -15px;
+    padding: 0px;
+}
+.work  ul li {
+    margin: 0px 15px;
+}
+.team {
+    background-color: #F5F4FA;
+}
+.team ul {
+    display:flex;
+    justify-content: center;
+    padding: 0px;
+    margin:0px -15px;
+}
+.team ul li {
+    margin:0px 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}
+.team .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+.team .position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+footer {
+    background-color: #2F303A;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding: 60px 0px;
 
+}
+footer a {
+    color:rgba(255, 255, 255, 0.6);
+    
+}
+footer .logo {
+    color: #FFFFFF;
+}
+footer ul {
+    padding: 0px;
+}
