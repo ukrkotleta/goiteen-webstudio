@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="portfolio.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,24 +13,28 @@
     <body>
         <!-- head -->
         <header>
-            <a href="/" class="logo"><span>Web</span>Studio</a>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">студія</a>
-                    </li>
-                    <li class="active">
-                        <a href="">портфоліо</a>
-                    </li>
-                    <li>
-                        <a href="">контакти</a>
-                    </li>
-                </ul>
-            </nav>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380991234567">+380991234567</a></li>
-            </ul>
+            <div class="container">
+                <div class="header">
+                    <a href="/" class="logo"><span>Web</span>Studio</a>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="">Студія</a>
+                            </li>
+                            <li>
+                                <a href="">Портфоліо</a>
+                            </li>
+                            <li>
+                                <a href="">Контакти</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="contacts">
+                        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a href="tel:+380991234567">+380991234567</a></li>
+                    </ul>
+                </div>                
+            </div>
         </header>
         <main>
             <section>
@@ -41,89 +46,95 @@
                     <li><button type="button">Маркетинг</button></li>
                 </ul>
             </section>
-            <section>
-                <div class="portfolio">
-                    <div class="preview">
-                        <img src="img/portfolio/0.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <h3>Технокряк</h3>
-                    <p class="grey">Веб-сайт</p>
-                </div>
-                <div class="portfolio">
-                    <div class="preview">
-                        <img src="img/portfolio/1.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <h3>Постер New Orlean vs Golden Star</h3>
-                    <p class="grey">Дизайн</p>
-                </div>
-                <div class="portfolio">
-                    <div class="preview">
-                        <img src="img/portfolio/2.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <h3>Ресторан Seafood</h3>
-                    <p class="grey">Застосунок</p>
-                </div>
-                <div class="portfolio">
-                    <div class="preview">
-                        <img src="img/portfolio/3.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <h3>Проект Prime</h3>
-                    <p class="grey">Застосунок</p>
-                </div>
-                <div class="portfolio">
-                    <div class="preview">
-                        <img src="img/portfolio/4.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <h3>Проект Boxes</h3>
-                    <p class="grey">Застосунок</p>
-                </div>
-                <div class="portfolio">
-                    <div class="preview">
-                        <img src="img/portfolio/5.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <h3>Inspiration has no Borders</h3>
-                    <p class="grey">Веб-сайт</p>
-                </div>
-                <div class="portfolio">
-                    <div class="preview">
-                        <img src="img/portfolio/6.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <h3>Издание Limited Edition</h3>
-                    <p class="grey">Дизайн</p>
-                </div>
-                <div class="portfolio">
-                    <div class="preview">
-                        <img src="img/portfolio/7.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <h3>Проект LAB</h3>
-                    <p class="grey">Маркетинг</p>
-                </div>
-                <div class="portfolio">
-                    <div class="preview">
-                        <img src="img/portfolio/8.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <h3>Growing Business </h3>
-                    <p class="grey">Застосунок</p>
+            <section class="portfolio">
+                <div class="container">
+                    <ul>
+                        <li class="item">
+                            <div class="preview">
+                                <img src="img/portfolio/0.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <h3>Технокряк</h3>
+                            <p class="grey">Веб-сайт</p>
+                        </li>
+                        <li class="item">
+                            <div class="preview">
+                                <img src="img/portfolio/1.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <h3>Постер New Orlean vs Golden Star</h3>
+                            <p class="grey">Дизайн</p>
+                        </li>
+                        <li class="item">
+                            <div class="preview">
+                                <img src="img/portfolio/2.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <h3>Ресторан Seafood</h3>
+                            <p class="grey">Застосунок</p>
+                        </li>
+                        <li class="item">
+                            <div class="preview">
+                                <img src="img/portfolio/3.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <h3>Проект Prime</h3>
+                            <p class="grey">Застосунок</p>
+                        </li>
+                        <li class="item">
+                            <div class="preview">
+                                <img src="img/portfolio/4.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <h3>Проект Boxes</h3>
+                            <p class="grey">Застосунок</p>
+                        </li>
+                        <li class="item">
+                            <div class="preview">
+                                <img src="img/portfolio/5.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <h3>Inspiration has no Borders</h3>
+                            <p class="grey">Веб-сайт</p>
+                        </li>
+                        <li class="item">
+                            <div class="preview">
+                                <img src="img/portfolio/6.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <h3>Издание Limited Edition</h3>
+                            <p class="grey">Дизайн</p>
+                        </li>
+                        <li class="item">
+                            <div class="preview">
+                                <img src="img/portfolio/7.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <h3>Проект LAB</h3>
+                            <p class="grey">Маркетинг</p>
+                        </li>
+                        <li class="item">
+                            <div class="preview">
+                                <img src="img/portfolio/8.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <h3>Growing Business </h3>
+                            <p class="grey">Застосунок</p>
+                        </li>
+                    </ul>
                 </div>
             </section>
         </main>
         <!-- нога -->
         <footer>
-            <a href="/"><span>Web</span>Studio</a>
-            <address>м. Київ, пр-т Лесі Українки, 26</address>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380991234567">+380991234567</a></li>
-            </ul>
+            <div class="container">
+                <a href="/" class="logo"><span>Web</span>Studio</a>
+                <p>м. Київ, пр-т Лесі Українки, 26</p>
+                <ul>
+                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a href="tel:+380991234567">+380991234567</a></li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>
