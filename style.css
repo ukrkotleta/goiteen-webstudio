@@ -56,6 +56,24 @@ header .contacts a {
     letter-spacing: 0.02em;
     color: #757575;
 }
+header .contacts a.email::before {
+    content: url(img/icons/email.svg);
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+}
+header .contacts a.phone::before {
+    content: url(img/icons/phone.svg);
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+header .contacts a.email:hover::before {
+    content: url(img/icons/email-hover.svg);
+}
+header .contacts a.phone:hover::before {
+    content: url(img/icons/phone-hover.svg);
+}
 header nav a:hover,
 .contacts a:hover {
     color:#2196F3;
@@ -96,6 +114,10 @@ header nav ul li:last-child {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url('img/hero-bg.jpg');
+    background-size: cover;
+    background-repeat:  no-repeat;
+    background-position: center center;
 }
 .hero h1 {
     font-family: 'Roboto';
