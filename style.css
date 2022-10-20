@@ -185,18 +185,42 @@ header nav ul li:last-child {
 .team {
     background-color: #F5F4FA;
 }
-.team ul {
+.team ul.team  {
     display:flex;
     justify-content: center;
     padding: 0px;
     margin:0px -15px;
 }
-.team ul li {
+.team ul.team > li {
     margin:0px 15px;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
+}
+.team ul.social{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+.team ul.social li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+}
+.team ul.social li  a:hover svg g,
+.team ul.social li  a:hover svg path {
+    fill: #fff;
+} 
+
+.team ul.social li a:hover {
+    background-color: #2196F3;
 }
 .team .name {
     font-weight: 500;
