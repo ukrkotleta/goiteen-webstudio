@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .anime {
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+        }
+        .anime > div {
+            width: 20px;
+            height: 20px;
+            background-color: aqua;
+            animation-name: perimeter;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;        
+        }
+        @keyframes perimeter {
+            0% {
+                transform: translate(0, 0);
+            }
+            25% {
+                transform: translate(80px, 0);
+                background-color: darkblue;
+            }
+            50% {
+                transform: translate(80px, 80px);
+                background-color: darksalmon;
+            }
+            75% {
+                transform: translate(0, 80px);
+                background-color: cadetblue;
+            }
+            100% {
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="anime">
+        <div></div>
+    </div>
+    
+</body>
+</html>
